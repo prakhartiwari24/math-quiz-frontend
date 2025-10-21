@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useQuizStore } from "../../store/quizStore";
-import { DIFFICULTY_COLORS, QUESTION_TYPE_LABELS } from "../../utils/constants";
+import { DIFFICULTY_COLORS } from "../../utils/constants";
 
 export const QuestionDisplay = () => {
   const { currentQuestion, gameState } = useQuizStore();
