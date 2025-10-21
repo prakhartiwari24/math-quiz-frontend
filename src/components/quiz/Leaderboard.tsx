@@ -62,9 +62,6 @@ export const Leaderboard = () => {
                       </Badge>
                     )}
                   </div>
-                  <div className="text-sm text-muted-foreground">
-                    {player.questions_answered} questions answered
-                  </div>
                 </div>
               </div>
 
