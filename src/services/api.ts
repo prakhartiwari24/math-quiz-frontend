@@ -1,6 +1,6 @@
 import { API_BASE_URL } from "../utils/constants";
 import { User, UserStats } from "../types/user.types";
-import { Question, QuizState, LeaderboardEntry } from "../types/quiz.types";
+import { Question, QuizState } from "../types/quiz.types";
 
 class ApiService {
   private async request<T>(
